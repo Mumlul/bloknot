@@ -43,6 +43,7 @@ namespace Блокнотик
             ToolStripMenuItem fontMenuItem = new ToolStripMenuItem("Шрифт...");
             ToolStripMenuItem searchMenuItem = new ToolStripMenuItem("Найти...");
             ToolStripMenuItem replaceMenuItem = new ToolStripMenuItem("Заменить...");
+            ToolStripMenuItem data = new ToolStripMenuItem("Дата и время");
 
             // Вставка
             ToolStripMenuItem insertMenu = new ToolStripMenuItem("Вставка");
@@ -61,6 +62,7 @@ namespace Блокнотик
             searchMenuItem.Click += SearchMenuItem_Click;
             replaceMenuItem.Click += ReplaceMenuItem_Click;
             insertImageMenuItem.Click += InsertImageMenuItem_Click;
+            data.Click += DD;
 
             // Добавление пунктов меню
             fileMenu.DropDownItems.Add(openMenuItem);
@@ -74,6 +76,7 @@ namespace Блокнотик
             editMenu.DropDownItems.Add(fontMenuItem);
             editMenu.DropDownItems.Add(searchMenuItem);
             editMenu.DropDownItems.Add(replaceMenuItem);
+            editMenu.DropDownItems.Add(data);
 
             insertMenu.DropDownItems.Add(insertImageMenuItem);
 
@@ -83,6 +86,11 @@ namespace Блокнотик
 
             this.MainMenuStrip = menuStrip;
             this.Controls.Add(menuStrip); // Добавляем меню первым
+        }
+
+        private void DD(object sender, EventArgs e)
+        {
+            richTextBox2.Text += DateTime.Now;
         }
         private void InitializeStatusStrip()
         {
