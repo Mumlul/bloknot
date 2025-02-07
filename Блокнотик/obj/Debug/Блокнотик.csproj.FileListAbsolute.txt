@@ -1,0 +1,10 @@
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\bin\Debug\Блокнотик.exe.config
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\bin\Debug\Блокнотик.exe
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\bin\Debug\Блокнотик.pdb
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.csproj.AssemblyReference.cache
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.Form1.resources
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.Properties.Resources.resources
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.csproj.GenerateResource.cache
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.csproj.CoreCompileInputs.cache
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.exe
+C:\Users\st310-07\Documents\Плоских Пр-31\Блокнотик\obj\Debug\Блокнотик.pdb
